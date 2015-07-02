@@ -1,0 +1,248 @@
+[{"typename":"手机","typeid":"1","goodsid":"1","bcgimg":"img/iphone1.jpg","description":"iphone6,不止是更大!","label":"极致体验","price":"5888.00","postage":"免运费","stylelist":[{"fzsize":["深空灰","土豪金","银白"]},{"name":"颜色"}]},
+{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"2",
+	"bcgimg":"img/iphone2.jpg",
+	"description":"iphone5s,大减价",
+	"label":"性价比之选。",
+	"price":"3500.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["深空灰","土豪金","银白"]},{"name":"颜色"}]
+},{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"3",
+	"bcgimg":"img/iphone3.jpg",
+	"description":"iphone4s,经典之作",
+	"label":"送家长",
+	"price":"1999.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["深空灰","土豪金","银白"]},{"name":"颜色"}]
+},{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"4",
+	"bcgimg":"img/sanxing1.jpg",
+	"description":"三星手机，性价比之选",
+	"label":"安卓5.0",
+	"price":"3400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["16g","32g","64g"]},{"name":"内存"}]
+},{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"5",
+	"bcgimg":"img/sanxing2.jpg",
+	"description":"三星i9300",
+	"label":"性价比之选。",
+	"price":"2000.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["16g","32g","64g"]},{"name":"内存"}]
+},{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"6",
+	"bcgimg":"img/sanxing3.jpg",
+	"description":"三星s6 Edga!",
+	"label":"曲面屏",
+	"price":"5400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["16g","32g","64g"]},{"name":"内存"}]
+},{
+	"typename":"手机",
+	"typeid":"1",
+	"goodsid":"7",
+	"bcgimg":"img/sanxing4.jpg",
+	"description":"三星s6",
+	"label":"金属机身",
+	"price":"4888.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["16g","32g","64g"]},{"name":"内存"}]
+},{
+	"typename":"平板",
+	"typeid":"2",
+	"goodsid":"8",
+	"bcgimg":"img/ipad1.jpg",
+	"description":"ipad air 2",
+	"label":"超长续航！",
+	"price":"2888.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["深空灰","土豪金","银白"]},{"name":"颜色"}]
+},{
+	"typename":"平板",
+	"typeid":"2",
+	"goodsid":"9",
+	"bcgimg":"img/ipad2.jpg",
+	"description":"ipad mini",
+	"label":"性价比之选。",
+	"price":"1999.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["深空灰","土豪金","银白"]},{"name":"颜色"}]
+},{
+	"typename":"电视",
+	"typeid":"3",
+	"goodsid":"10",
+	"bcgimg":"img/tv1.jpg",
+	"description":"长虹电视机",
+	"label":"led高清屏",
+	"price":"1400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"电视",
+	"typeid":"3",
+	"goodsid":"11",
+	"bcgimg":"img/tv2.jpg",
+	"description":"海尔电视机",
+	"label":"led高清屏",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"电视",
+	"typeid":"3",
+	"goodsid":"12",
+	"bcgimg":"img/tv3.jpg",
+	"description":"乐视超级tv",
+	"label":"led高清屏",
+	"price":"2999.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"13",
+	"bcgimg":"img/xiyiji1.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"14",
+	"bcgimg":"img/xiyiji2.jpg",
+	"description":"海尔全自动滚筒洗衣机",
+	"label":"性价比之选",
+	"price":"2400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"15",
+	"bcgimg":"img/xiyiji3.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},
+{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"16",
+	"bcgimg":"img/xiyiji4.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},
+{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"17",
+	"bcgimg":"img/xiyiji5.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},
+{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"18",
+	"bcgimg":"img/xiyiji6.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},
+{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"19",
+	"bcgimg":"img/xiyiji7.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},
+{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"20",
+	"bcgimg":"img/xiyiji8.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"21",
+	"bcgimg":"img/xiyiji9.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"洗衣机",
+	"typeid":"4",
+	"goodsid":"22",
+	"bcgimg":"img/xiyiji10.jpg",
+	"description":"海尔全自动洗衣机",
+	"label":"性价比之选",
+	"price":"1800.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["低配","中配","高配"]},{"name":"配置"}]
+},{
+	"typename":"电脑",
+	"typeid":"5",
+	"goodsid":"23",
+	"bcgimg":"img/pc1.jpg",
+	"description":"戴尔台式机",
+	"label":"家庭办公",
+	"price":"3400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["4g+i3","4g+i5","8g+i5","8g+i7"]},{"name":"配置"}]
+},{
+	"typename":"电脑",
+	"typeid":"5",
+	"goodsid":"24",
+	"bcgimg":"img/pc2.jpg",
+	"description":"华硕笔记本",
+	"label":"影音娱乐",
+	"price":"4400.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["4g+i3","4g+i5","8g+i5","8g+i7"]},{"name":"配置"}]
+},{
+	"typename":"电脑",
+	"typeid":"5",
+	"goodsid":"25",
+	"bcgimg":"img/pc3.jpg",
+	"description":"联想笔记本",
+	"label":"影音娱乐",
+	"price":"4000.00",
+	"postage":"免运费",
+	"stylelist":[{"fzsize":["4g+i3","4g+i5","8g+i5","8g+i7"]},{"name":"配置"}]
+}]
+

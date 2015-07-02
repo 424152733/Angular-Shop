@@ -1,0 +1,48 @@
+
+<header></header>
+<div class="row" ng-controller="myController1">
+	<div class="col-md-offset-3 col-md-6">
+		<div  class="panel panel-primary">
+			<div class="panel-heading">购物车订单</div>
+			<div data-ng-init="cartOrder()" class="panel-body">		
+				<form role="form" class="form-horizontal myform">
+					<div class="form-group">
+						<label class="col-md-3 text-muted control-label">商品:</label>
+						<p id="description" class="col-md-9 text-danger form_p">{{cartdata.description}}</p>
+					</div>
+					<div class="form-group">
+						<label class="col-md-3 text-muted control-label">单价:</label>
+						<p  class="col-md-9 text-danger form_p">{{cartdata.price}}元</p>
+					</div>
+					<div class="form-group">
+						<label class="col-md-3 text-muted control-label">数量:</label>
+						<div class="col-md-9">
+							<input type="number" class="form-control"  ng-model="cartdata.cartcount" disabled>
+						</div>					
+					</div>
+					<div class="form-group">
+						<label class="col-md-3 text-muted control-label">送货地址:</label>
+						<div class="col-md-9">
+							<input id="address" type="text" class="form-control">
+						</div>					
+					</div>
+					<div class="form-group">
+						<label  class="col-md-3 text-muted control-label">联系方式:</label>
+						<div class="col-md-9">
+							<input id="phone" type="text" class="form-control">
+						</div>					
+					</div>
+					<div class="form-group">
+						<label class="col-md-3 text-muted control-label">总价格:</label>
+						<p id="total" class="col-md-9 text-danger form_p">{{cartdata.total}}元</p>
+					</div>
+					<div class="">
+						<button ng-click="localList(cartdata.goodsid)" class="col-md-offset-1 col-md-3 btn btn-danger btn-lg">下单</button>
+						<button class="col-md-offset-4 col-md-3 btn btn-info btn-lg" onclick="javascript:window.history.back()" >返回</button>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

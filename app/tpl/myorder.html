@@ -1,0 +1,38 @@
+
+<header></header>
+<div class="row" ng-controller="myController1" style="margin-top:10px">
+	<div data-ng-init="myOrder()" class="col-md-offset-1 col-md-10">
+		<div class="panel panel-primary">
+			<div class="panel-heading">订单详情列表</div>
+			<div id="myorderlist" class="panel-body">
+				<table class="table ctl table-hover">
+					<tr class="col-md-12 title"style="background-color:#EDEDED">
+						<td class="col-md-3"><strong>商品</strong></td>
+						<td class="col-md-2"><strong>总价</strong></td>
+						<td class="col-md-2"><strong>联系电话</strong></td>
+						<td class="col-md-3"><strong>送货地址</strong></td>
+						<td class="col-md-2"><strong>操作</strong></td>
+					</tr >
+					<tr ng-repeat="item in items2"class="title1">
+						<td style="color:#428bca">{{item.description}}</td>
+						<td>{{item.total}}元</td>
+						<td>{{item.phone}}</td>
+						<td>{{item.address}}</td>
+						<td><a ui-sref="gooddetial({goodsid:{{item.goodsid}}})" class="btn btn-primary btn-sm">商品详情</a></td>
+					</tr>
+				</table>
+				<nav class="page">
+				  <ul class="pagination">
+				    <li>
+				      <a prev>上一页</a>
+				    </li>
+				    <li ng-repeat="page in pages" ><a page active="{{page.pageoption}}"  ui-sref="myorder">{{page.pageoption}}</a></li>
+				    <li>
+				      <a next >下一页</a> 
+				    </li>
+				  </ul>
+				</nav>
+			</div>	
+		</div>
+	</div>
+</div>

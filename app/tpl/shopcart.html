@@ -1,0 +1,53 @@
+
+<header></header>
+<div class="row" style="margin-top:10px">
+	<div class="col-md-12">
+		<div class="panel panel-danger" ng-controller="myController1">
+			<div class="panel-heading" style="background-color:#d9534f;color:#fff">我的购物车</div>
+			<div data-ng-init="cartLoad()" class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="cart_title col-md-offset-3 col-md-3 text-center">单价</div>
+						<div class="cart_title col-md-2 text-center">数量</div>
+						<div class="cart_title col-md-2 text-center">总价</div>
+						<div class="cart_title col-md-2 text-center">操作</div>
+					</div>
+				</div>
+				<div ng-repeat="item in items3" class="col-md-12 singer_cartlist">
+					<div class="col-md-3 cart_imgbc">
+						
+						<div class="col-md-6"><img src="{{item.bcgimg}}" style="height:80px"></div>&nbsp;
+						<div style="margin-top:-15px" class="col-md-6"><a ui-sref="gooddetial({goodsid:{{item.goodsid}}})">{{item.description}}</a></div>
+					</div>
+					<div class="cart_price col-md-3 text-center">
+						¥{{item.price}}(运费:{{item.postage}}元)
+					</div>
+					<div class="cart_math col-md-2 text-center">
+						<button add class="btn btn-primary btn-sm">+</button>
+						<input type="text" ng-model="item.cartcount" style="width:30px;height:29px;text-align:center" >
+						<button down class="btn btn-primary btn-sm">-</button>
+					</div>
+					<div class="cart_total col-md-2 text-center">
+						{{item.total}}元
+					</div>
+					<div class="col-md-2 text-center">
+						<a ordercart ui-sref="cartorderform({goodsid:{{item.goodsid}}})"class="btn btn-info btn-sm cart_opreate" >购买</a>
+						<a ng-click="removeData($index)" class="btn btn-danger btn-sm cart_opreate">删除</a>
+					</div>
+				</div>
+				<nav class="page">
+				  <ul class="pagination">
+				    <li>
+				      <a prev>上一页</a>
+				    </li>
+				    <li ng-repeat="page in pages" ><a page active="{{page.pageoption}}"  ui-sref="shopcart">{{page.pageoption}}</a></li>
+				    <li>
+				      <a next >下一页</a> 
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>

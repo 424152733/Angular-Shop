@@ -1,0 +1,32 @@
+<div class="container">
+<header></header>
+<div class="panel panel-info" ng-controller="myController1">
+	<div data-ng-init="goodsDetial()" class="panel-body">
+		<div class="row">		
+				<div  class="col-md-4 box">
+					<img class="lg_imgbox" src="{{goodsdetial.bcgimg}}"></div>
+				<div  class="col-md-7 explain">
+					 <p>
+					 	<h3 style="color:#555555">{{goodsdetial.description}}</h3>
+					 </p>
+					 <p style="color:red;font-weight:bold">{{goodsdetial.label}}</p>
+					 <p>
+					 	<label>一口价:</label>&nbsp;<span style="color:red;font-size:16px;font-weight:bold">¥{{goodsdetial.price}}</span>
+					 </p>
+					 <p>
+					 	<label>运费:</label>&nbsp;<span style="color:red;font-size:16px;font-weight:bold">
+					 		¥{{goodsdetial.postage}}</span>
+					 </p>
+					 <p>
+					 	<label>{{stylename.name}}</label>&nbsp;
+					 	<span yfsize class="yfsize" ng-repeat="item in stylelist.fzsize">{{item}}</span>
+					 </p><br/>
+					 <p ng-repeat="item in routegoodid">
+					 	<a class="btn btn-primary" ui-sref="orderform({goodsid:{{item.goodsid}}})">购买</a>
+					 	<a shopcart class="btn btn-danger" style="margin-left:10px">加入购物车</a>
+					 </p>
+				</div>
+		</div>
+	</div>
+</div>
+</div>

@@ -1,0 +1,30 @@
+
+<div ng-controller="myController1">
+	<div data-ng-init="goodsType()" class="panel panel-success splist">
+		<div class="panel-heading"><strong>{{typename}}<strong></div>
+		<div class="panel-body" >
+			<div class="row" >
+				<div  class="col-md-12 spdetail">
+					<div  class="col-md-4 singelsp" ng-repeat="item in items1">
+						<div imgbox ui-sref="gooddetial({goodsid:{{item.goodsid}}})" ng-style={"background":"url({{item.bcgimg}})no-repeat"}>
+						</div>
+						<div  class="btninfo"><a ui-sref="gooddetial({goodsid:{{item.goodsid}}})">{{item.description}}</a></div>
+						<span class="price"><i>¥{{item.price}}</i></span>
+					</div>
+				</div>
+			</div>
+			<nav class="page">
+			  <ul class="pagination">
+			    <li>
+			      <a prev>上一页</a>
+			    </li>
+			    <li ng-repeat="page in pages" ><a page active="{{page.pageoption}}">{{page.pageoption}}</a></li>
+			    <li>
+			      <a next>下一页</a> 
+			    </li>
+			  </ul>
+			</nav>
+				
+		</div>
+	</div>
+</div>
